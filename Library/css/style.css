@@ -1,0 +1,142 @@
+/* RESET */
+
+   html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, 
+   blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, 
+   img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, 
+   i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, 
+   caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, 
+   embed, figure, figcaption, footer, header, hgroup, menu, nav, output, 
+   ruby, section, summary, time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font-family: 'Cotta';
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, 
+   nav, section {
+ display: block;
+}
+body {
+ line-height: 1;
+}
+ol, ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,q:before, q:after {
+ content: '';
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+/*            FONTS           */
+@font-face {
+    font-family: 'Cotta';
+    src: url('.\Library\Fonts\cotta-free.otf') format(opentype);
+     /*opentype (OTF) / truetype (ttf)*/
+}
+
+/*          START             */
+body{
+    background-color: #A288E3;
+}
+#menu-home{
+    display: flex;
+    justify-content: space-between;
+    font: normal normal normal 39px 'Cotta';
+    padding-left: 4.35em;
+}
+.icon-home{
+    float: left;
+    width: 89.05px;
+    height: 135.54px;
+    padding-top: 0.755em;
+}
+.menu-buttons{
+    margin-top: 1.48em;
+    margin-right: 2.02em;
+}
+.menu-buttons a{
+    width: 166px;
+    height: 39px;
+    text-decoration: none;
+    color: #C6D8AF;
+    margin-left: 2.02em;
+}
+#presentation{
+    display: flex;
+    margin-right: 2.02em;
+    padding-left: 159px;
+}
+.introduction{
+    padding: 0;
+    margin-top: 55px;
+}
+.introduction-text h1{
+    width: 581px;
+    height: 339px;
+    font: normal normal normal 129px/168px 'Cotta';
+    color: #C6D8AF;
+    margin-bottom: 38px;
+}
+.introduction-text h2{
+    width: 600px;
+    height: 115px;
+    text-align: left;
+    font: normal normal normal 25px/30px 'Cotta';
+    color: #3B5760;
+    opacity: 1;
+}
+.introduction-text img{
+    margin-top: 55px;
+    border-radius: 30px;
+    width: 600px;
+    height: 164px;
+}
+.block-2{
+    display: grid;
+    margin: 50px 0px 0px 38px;
+    grid-template-columns: repeat(5, 10fr);
+    grid-auto-rows: 300px 134px;
+    grid-column-gap: 38px;
+}
+.img1{
+    grid-column-start: 1;
+    grid-column-end: 0;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.img2{
+    grid-column-start: 2;
+    grid-column-end: 0;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.img3{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 0;
+}
+.img4{
+    grid-column-start: 6;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 3;
+}
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES*/
