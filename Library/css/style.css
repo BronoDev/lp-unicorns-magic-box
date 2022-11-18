@@ -225,9 +225,27 @@ body  {
 @media (300px < width <= 500px ){
 }
 
-
-@media (width<= 1444px){
-   #menu-home{
-
+@media (width<=1920px){
+   Body{
+    margin: auto;
+   }
 }
+
+@media (width<= 1680px){
+    #presentation{
+        margin: auto;
+        padding-left: 1.9369999999999994em;
+}
+    .photo-contact img{
+        padding-left: 4em;
+    }
+    .photo-contact svg{
+        margin-left: -1em;
+    }
+    #contact-us{
+        padding-left: 1.9369999999999994em;
+    }
+    .block-2 img{
+        max-width: 500px
+    }
 }
