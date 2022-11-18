@@ -42,11 +42,9 @@ table {
 }
 
 /*          START             */
-body  {
-    background: linear-gradient(to bottom, #A288E3 0%,#A288E3 45%,#A288E3 47%,#C6D8AF 45%,#C6D8AF 100%); /* W3C */
-    }
 
 #menu-home{
+    background-color: #A288E3;
     width: auto;
     display: flex;
     justify-content: space-between;
@@ -67,6 +65,7 @@ body  {
 }
 #presentation{
     display: flex;
+    background-color: #A288E3;
     width: auto;
     padding-left: 9.937em;  /*159px*/
     padding-bottom: 9.12em;   /*146px*/
@@ -126,7 +125,7 @@ body  {
     grid-row-end: 3;
 }
 #menu-subhome{
-    
+    background-color: #C6D8AF;
     display: flex;
     width: auto;
     justify-content: space-between;
@@ -206,10 +205,80 @@ body  {
 .social-media div{
     margin-right: 1em;
 }
+#menu-home-cases{
+    background-color: #3B5760;
+    display: flex;
+    justify-content: space-between;
+    font: normal normal normal 39px 'Cotta';
+    padding-left: 300px;
+}
+.icon-home-cases{
+    padding-top: 0.755em;
+}
+.menu-buttons-cases{
+    margin-top: 1.48em;
+    margin-right: 2.02em;
+}
+.menu-buttons-cases a{
+    text-decoration: none;
+    color: #C6D8AF;
+    margin-left: 2.02em;
+}
+#section-cases{
+    background-color: #3B5760;
+    padding-left: 310px;
+    padding-top: 30px;
+    padding-right: 260px;
+}
+.text-cases h1{
+    font-size: 100px;
+    color: #A288E3;
+    text-align: left;
+}
+.text-cases h3{
+    color: #C6D8AF;
+    font: normal normal normal 25px/30px Cotta;
+}
+.text-inc{
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.text-inc h3{
+    font: normal normal normal 25px/30px Cotta;
+    color: #C6D8AF;
+}
+.text-inc a{
+    text-decoration: underline;
+    color: #A288E3;
+}
+#box-sket{
+    padding-top: 70px;
+    display: flex;
+    background-color: #3B5760;
+    padding-left: 300px;
+}
+#box-sket img{
+    width: 271px;
+    height: 267px;
+    border-radius: 30px;
+    margin-right: 31px;
+}
+#last-text{
+    background-color: #3B5760;
+    padding-bottom: 57px;
+    padding-left: 300px;
+    padding-top: 9px;
+    padding-right: 380px;
 
-
-
-
+}
+#last-text h3{
+    text-align: left;
+    font: normal normal normal 16px/30px Cotta;
+    letter-spacing: 0px;
+    color: #C6D8AF;
+    opacity: 1;
+}
 
 
 
