@@ -210,7 +210,8 @@ table {
     display: flex;
     justify-content: space-between;
     font: normal normal normal 39px 'Cotta';
-    padding-left: 300px;
+    padding-left: 368px;
+    padding-bottom: 111px;
 }
 .icon-home-cases{
     padding-top: 0.755em;
@@ -226,12 +227,12 @@ table {
 }
 #section-cases{
     background-color: #3B5760;
-    padding-left: 310px;
+    padding-left: 368px;
     padding-top: 30px;
-    padding-right: 260px;
+    padding-right: 368px;
 }
 .text-cases h1{
-    font-size: 100px;
+    font: normal normal normal 100px/100px Cotta;
     color: #A288E3;
     text-align: left;
 }
@@ -256,7 +257,7 @@ table {
     padding-top: 70px;
     display: flex;
     background-color: #3B5760;
-    padding-left: 300px;
+    padding-left: 368px;
 }
 #box-sket img{
     width: 271px;
@@ -267,7 +268,7 @@ table {
 #last-text{
     background-color: #3B5760;
     padding-bottom: 57px;
-    padding-left: 300px;
+    padding-left: 368px;
     padding-top: 9px;
     padding-right: 380px;
 
